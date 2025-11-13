@@ -1,10 +1,30 @@
+- [1 Software Introduction](#1-software-introduction)
+- [2 Installation and Uninstallation](#2-installation-and-uninstallation)
+  - [2.1 Software Operating Requirements](#21-software-operating-requirements)
+  - [2.2 Software Installation](#22-software-installation)
+  - [2.3 Software Uninstallation](#23-software-uninstallation)
+- [3 Data Loading](#3-data-loading)
+- [4 Sample Making](#4-sample-making)
+  - [4.1 Negative Points Selection](#41-negative-points-selection)
+  - [4.2 Training Sample Preparation](#42-training-sample-preparation)
+    - [4.2.1 Supervised Dataset Construction](#421-supervised-dataset-construction)
+    - [4.2.2 Unsupervised Dataset Construction](#422-unsupervised-dataset-construction)
+- [5 Geochemical Anomaly Identification](#5-geochemical-anomaly-identification)
+  - [5.1 Spectral-Spatial Dual-Branch Model](#51-spectral-spatial-dual-branch-model)
+  - [5.2 Spectral-Spatial Dual-Branch Autoencoder](#52-spectral-spatial-dual-branch-autoencoder)
+- [6 Mineral Prospectivity Mapping](#6-mineral-prospectivity-mapping)
+  - [6.1 Supervised Learning Algorithm](#61-supervised-learning-algorithm)
+    - [6.1.1 Random Forests](#611-random-forests)
+    - [6.1.2 Convolutional Neural Network](#612-convolutional-neural-network)
+    - [6.1.3 Graph Neural Network](#613-graph-neural-network)
+  - [6.2 Self-Supervised Learning Methods](#62-self-supervised-learning-methods)
+    - [6.2.1 Graph Self-Supervised Network](#621-graph-self-supervised-network)
+  - [6.3 Reinforcement Learning Methods](#63-reinforcement-learning-methods)
+    - [6.3.1 Graph Reinforcement Learning Algorithm](#631-graph-reinforcement-learning-algorithm)
+- [7 Others](#7-others)
+  - [7.1 Evaluation Curves](#71-evaluation-curves)
+  - [7.2 Creating Geological Constraint Layers](#72-creating-geological-constraint-layers)
 
-<style>
-.center { text-align: center; }
-</style>
-<h1 class="center">ArcMPM V2.0</h1>
-
-[TOC]
 
 # 1 Software Introduction
 
@@ -29,23 +49,23 @@ Figure 1 Installer
 (6) The software installation is complete. Run the software ArcMPM (Figure 5).
 
 ![placeholder](/figure/2.png)
-图 2选择安装路径
+Figure 2 Installation Path
 
 ![placeholder](/figure/3.png)
-图 3安装进度
+Figure 3 Installation Process
 
 ![placeholder](/figure/4.png)
-图 4放置Python39文件夹
+Figure 4 Place Python Package
 
 ![placeholder](/figure/5.png)
-图 5软件界面
+Figure 5 Software Interface
 
 ## 2.3 Software Uninstallation
 
 Click Uninstall.exe in the directory, select "Yes" to start the removal process, and then manually delete the Python3.9 folder in the directory to completely uninstall the software (Figure 6).
 
 ![placeholder](/figure/6.png)
-图 6卸载软件
+Figure 6 Uninstall Software
 
 # 3 Data Loading
 
